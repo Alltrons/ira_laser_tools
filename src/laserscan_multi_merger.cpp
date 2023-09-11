@@ -156,7 +156,7 @@ void LaserscanMerger::laserscan_topic_parser()
 
 	while (!tokens.empty())
 	{
-		RCLCPP_INFO(this->get_logger(), "Waiting for topics ...  " + laserscan_topics);
+		RCLCPP_INFO(this->get_logger(), "Waiting for topics ...  ");
 		
 		sleep(1);
 
